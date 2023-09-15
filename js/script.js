@@ -1,11 +1,8 @@
-console.log("Hello, World!");
+// For your example:
+const firstName = "Ada";
+const lastLetter = firstName[firstName.length - 1];
+const yourSuggestion = firstName.length - 1;
 
-function borderMsg(msg) {
-    const border = "=".repeat(msg.length);
-
-    console.log(border);
-    console.log(msg);
-    console.log(border);
-}
-
-borderMsg("Just Testing This Function");
+console.log(`firstName: ${firstName}`);
+console.log(`lastLetter: ${lastLetter}`);
+console.log(`yourSuggestion: ${yourSuggestion}`);
